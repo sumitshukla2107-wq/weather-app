@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #4facfe, #6a5acd);
+}
+
+.weather-app {
+    width: 380px;
+    padding: 30px;
+
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+    color: white;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+
+.search-box input {
+    flex: 1;
+
+    padding: 12px;
+
+    border: none;
+    outline: none;
+    border-radius: 8px;
+
+    font-size: 15px;
+}
+
+.search-box button {
+    padding: 12px 18px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #222;
+    color: white;
+
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background: #444;
+}
+
+#message {
+    margin: 15px 0;
+    min-height: 20px;
+}
+
+.weather-card {
+    margin-top: 20px;
+}
+
+.weather-card h2 {
+    font-size: 28px;
+}
+
+#weatherIcon {
+    width: 100px;
+}
+
+#temperature {
+    font-size: 45px;
+    margin: 5px 0;
+}
+
+#description {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.weather-info div {
+    flex: 1;
+
+    padding: 12px;
+
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+}
+
+.weather-info span {
+    font-size: 25px;
+}
+
+.weather-info p {
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.weather-info strong {
+    font-size: 14px;
+}
+#locationBtn {
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #ffffff;
+    color: #2563eb;
+
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#locationBtn:hover {
+    background: #f1f5f9;
+}
